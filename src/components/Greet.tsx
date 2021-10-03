@@ -2,12 +2,21 @@ import React from 'react';
 
 type GreetProps = {
     name: String;
+    messageCount: number;
+    isLoogedIn: boolean;
 };
 
 const Greet = (props: GreetProps) => {
     return (
         <div>
-            <h2>Welcome {props.name}! to wonderland</h2>
+            {props.isLoogedIn ? (
+                <h2>
+                    Welcome {props.name}! to wonderland. You have
+                    {props.messageCount} hosts assigned to you.
+                </h2>
+            ) : (
+                <h2>Welcome! Guest</h2>
+            )}
         </div>
     );
 };
