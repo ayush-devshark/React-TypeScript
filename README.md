@@ -20,3 +20,8 @@
 ## Styles
 
 -   Container component
+
+## Refactoring, Extraction
+
+-   Person types
+-   Name type
