@@ -11,3 +11,8 @@
 -   Union type - Status component
 -   ReactNode, Children props - Heading, Oscar component
 -   Optional, Default props - Greet Component
+
+## Event Props
+
+-   Button component
+-   Input component
