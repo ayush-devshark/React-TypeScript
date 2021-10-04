@@ -8,6 +8,7 @@ import Status from './components/Status';
 import Oscar from './components/Oscar';
 import Button from './components/Button';
 import Input from './components/Input';
+import Container from './components/Container';
 
 function App() {
     const personName = {
@@ -43,12 +44,13 @@ function App() {
                     console.log('Button Clicked', e, id);
                 }}
             ></Button> */}
-            <Input
+            {/* <Input
                 handleChange={event => {
                     console.log('Changed', event);
                 }}
                 value=''
-            />
+            /> */}
+            <Container styles={{ border: '1px solid black' }} />
         </div>
     );
 }
