@@ -25,3 +25,12 @@
 
 -   Person types
 -   Name type
+
+## useState
+
+-   LoggedIn
+-   User
+
+## useReducer
+
+-   Counter-Discriminated unions
