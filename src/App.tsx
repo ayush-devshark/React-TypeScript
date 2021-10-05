@@ -10,6 +10,8 @@ import Button from './components/Button';
 import Input from './components/Input';
 import Container from './components/Container';
 import LoggedIn from './components/state/LoggedIn';
+import { ThemeContextProvider } from './components/context/ThemeContext';
+import Box from './components/context/Box';
 
 function App() {
     const personName = {
@@ -52,7 +54,10 @@ function App() {
                 value=''
             /> */}
             {/* <Container styles={{ border: '1px solid black' }} /> */}
-            <LoggedIn />
+            {/* <LoggedIn /> */}
+            <ThemeContextProvider>
+                <Box />
+            </ThemeContextProvider>
         </div>
     );
 }

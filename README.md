@@ -33,4 +33,8 @@
 
 ## useReducer
 
--   Counter-Discriminated unions
+-   Counter - Discriminated unions
+
+## useContext
+
+-   ThemeContext
