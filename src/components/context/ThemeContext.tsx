@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { theme } from './Theme';
+import { theme } from './theme';
 
 type ThemeContextProviderProps = {
     children: React.ReactNode;
