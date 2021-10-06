@@ -52,3 +52,7 @@
 ## Component prop
 
 -   auth / Private
+
+## Generic Types
+
+-   generic / List
