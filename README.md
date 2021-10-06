@@ -56,3 +56,7 @@
 ## Generic Types
 
 -   generic / List
+
+## Restricting props
+
+-   restriction / RandomNumbers

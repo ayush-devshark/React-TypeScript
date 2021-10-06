@@ -18,6 +18,7 @@ import Counter from './components/class/Counter';
 import Private from './components/auth/Private';
 import Profile from './components/auth/Profile';
 import List from './components/generics/List';
+import RandomNumbers from './components/restriction/RandomNumbers';
 
 function App() {
     const personName = {
@@ -69,11 +70,17 @@ function App() {
             </UserContextProvider> */}
             {/* <Counter message='The Count value is: ' /> */}
             {/* <Private isLoggedIn={true} component={Profile} /> */}
-            <List
+            {/* <List
                 items={['Batman', 'Superman', 'Green Lantern']}
                 onClick={item => console.log(item)}
             />
-            <List items={[1, 2, 3]} onClick={item => console.log(item)} />
+            <List items={[1, 2, 3]} onClick={item => console.log(item)} /> */}
+            <RandomNumbers
+                value={10}
+                isPositive
+                // isNegative={false}
+                // isZero
+            />
         </div>
     );
 }
