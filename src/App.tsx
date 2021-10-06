@@ -10,11 +10,13 @@ import Button from './components/Button';
 import Input from './components/Input';
 import Container from './components/Container';
 import LoggedIn from './components/state/LoggedIn';
-// import { ThemeContextProvider } from './components/context/ThemeContext';
-// import Box from './components/context/Box';
-// import User from './components/context/User';
-// import { UserContextProvider } from './components/context/UserContext';
+import { ThemeContextProvider } from './components/context/ThemeContext';
+import Box from './components/context/Box';
+import User from './components/context/User';
+import { UserContextProvider } from './components/context/UserContext';
 import Counter from './components/class/Counter';
+import Private from './components/auth/Private';
+import Profile from './components/auth/Profile';
 
 function App() {
     const personName = {
@@ -64,7 +66,8 @@ function App() {
             <UserContextProvider>
                 <User />
             </UserContextProvider> */}
-            <Counter message='The Count value is: ' />
+            {/* <Counter message='The Count value is: ' /> */}
+            <Private isLoggedIn={true} component={Profile} />
         </div>
     );
 }
