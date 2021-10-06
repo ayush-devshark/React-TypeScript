@@ -73,3 +73,7 @@
 ## Extracting Component prop type
 
 -   html / CustomComponent
+
+## Polymorphic Components
+
+-   polymorphic / Text

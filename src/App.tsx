@@ -21,6 +21,7 @@ import List from './components/generics/List';
 import RandomNumbers from './components/restriction/RandomNumbers';
 import Toast from './components/template-literals/Toast';
 import CustomButton from './components/html/Button';
+import Text from './components/polymorphic/Text';
 
 function App() {
     // const personName = {
@@ -90,6 +91,15 @@ function App() {
             >
                 Primary BTtn
             </CustomButton> */}
+            <Text as='h1' size='lg'>
+                Heading
+            </Text>
+            <Text as='p' size='md'>
+                Paragraph
+            </Text>
+            <Text as='label' htmlFor='someId' size='sm' color='secondary'>
+                Label
+            </Text>
         </div>
     );
 }
