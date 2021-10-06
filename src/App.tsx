@@ -84,12 +84,12 @@ function App() {
                 // isZero
             /> */}
             {/* <Toast position='center' /> */}
-            <CustomButton
+            {/* <CustomButton
                 variant='secondary'
                 onClick={() => console.log('Btn clicked')}
             >
                 Primary BTtn
-            </CustomButton>
+            </CustomButton> */}
         </div>
     );
 }

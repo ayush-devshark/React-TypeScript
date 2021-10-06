@@ -69,3 +69,7 @@
 
 -   html / Button, Input
 -   ComponentProps
+
+## Extracting Component prop type
+
+-   html / CustomComponent
