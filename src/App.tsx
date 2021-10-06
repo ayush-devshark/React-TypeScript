@@ -20,27 +20,28 @@ import Profile from './components/auth/Profile';
 import List from './components/generics/List';
 import RandomNumbers from './components/restriction/RandomNumbers';
 import Toast from './components/template-literals/Toast';
+import CustomButton from './components/html/Button';
 
 function App() {
-    const personName = {
-        first: 'John',
-        last: 'Lee',
-    };
+    // const personName = {
+    //     first: 'John',
+    //     last: 'Lee',
+    // };
 
-    const nameList = [
-        {
-            first: 'John',
-            last: 'Lee',
-        },
-        {
-            first: 'Rob',
-            last: 'Williams',
-        },
-        {
-            first: 'Bob',
-            last: 'Clark',
-        },
-    ];
+    // const nameList = [
+    //     {
+    //         first: 'John',
+    //         last: 'Lee',
+    //     },
+    //     {
+    //         first: 'Rob',
+    //         last: 'Williams',
+    //     },
+    //     {
+    //         first: 'Bob',
+    //         last: 'Clark',
+    //     },
+    // ];
     return (
         <div className='App'>
             {/* <Greet name='John' messageCount={20} isLoogedIn={false} /> */}
@@ -82,7 +83,13 @@ function App() {
                 // isNegative={false}
                 // isZero
             /> */}
-            <Toast position='center' />
+            {/* <Toast position='center' /> */}
+            <CustomButton
+                variant='secondary'
+                onClick={() => console.log('Btn clicked')}
+            >
+                Primary BTtn
+            </CustomButton>
         </div>
     );
 }
