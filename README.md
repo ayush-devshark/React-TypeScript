@@ -44,3 +44,7 @@
 
 -   DOM ref
 -   Mutable ref
+
+## class
+
+-   class/Counter - If you don't have props specify an empty object and for state remove state type.

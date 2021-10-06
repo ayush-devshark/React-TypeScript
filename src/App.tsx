@@ -10,10 +10,11 @@ import Button from './components/Button';
 import Input from './components/Input';
 import Container from './components/Container';
 import LoggedIn from './components/state/LoggedIn';
-import { ThemeContextProvider } from './components/context/ThemeContext';
-import Box from './components/context/Box';
-import User from './components/context/User';
-import { UserContextProvider } from './components/context/UserContext';
+// import { ThemeContextProvider } from './components/context/ThemeContext';
+// import Box from './components/context/Box';
+// import User from './components/context/User';
+// import { UserContextProvider } from './components/context/UserContext';
+import Counter from './components/class/Counter';
 
 function App() {
     const personName = {
@@ -57,12 +58,13 @@ function App() {
             /> */}
             {/* <Container styles={{ border: '1px solid black' }} /> */}
             {/* <LoggedIn /> */}
-            <ThemeContextProvider>
+            {/* <ThemeContextProvider>
                 <Box />
             </ThemeContextProvider>
             <UserContextProvider>
                 <User />
-            </UserContextProvider>
+            </UserContextProvider> */}
+            <Counter message='The Count value is: ' />
         </div>
     );
 }
