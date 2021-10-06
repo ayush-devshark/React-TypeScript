@@ -60,3 +60,7 @@
 ## Restricting props
 
 -   restriction / RandomNumbers
+
+## Template Literal and Exclude
+
+-   TemplateLiteral / Toast
